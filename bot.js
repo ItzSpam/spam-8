@@ -36,7 +36,7 @@ client.on('ready', () => {
 
 client.on('ready',async () => {
   let GUILDID = '368906157487554562'; // اي دي السيرفر
-  let CHANNELID = '591318412190285848'; // اي دي الروم
+  let CHANNELID = '591318415545729082'; // اي دي الروم
   voiceStay(GUILDID, CHANNELID);
   function voiceStay(guildid, channelid) {
     if(!guildid) throw new Error('Syntax: voiceStay function requires guildid');
